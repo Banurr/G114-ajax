@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/G114-ajax
+    username: postgres
+    password: s63amg
+  flyway:
+    url: jdbc:postgresql://localhost:5432/G114-ajax
+    user: postgres
+    password: s63amg
+    locations: classpath:db/migration
